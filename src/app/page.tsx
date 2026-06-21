@@ -8,6 +8,7 @@ import { LessonScreen } from "@/components/tajweed/screens/lesson-screen";
 import { QuizScreen } from "@/components/tajweed/screens/quiz-screen";
 import { ProgressScreen } from "@/components/tajweed/screens/progress-screen";
 import { BottomNav } from "@/components/tajweed/bottom-nav";
+import { InstallPrompt } from "@/components/tajweed/install-prompt";
 import { useProgress } from "@/lib/tajweed/use-progress";
 import { allSections, type TajweedSection, type TajweedRule } from "@/lib/tajweed/data";
 
@@ -191,6 +192,7 @@ export default function Home() {
       </main>
 
       <BottomNav activeTab={activeTab} onTabChange={handleTabChange} />
+      <InstallPrompt />
     </div>
   );
 }
