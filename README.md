@@ -1,72 +1,123 @@
 # 📖 تطبيق تعلم التجويد التفاعلي
 
-تطبيق عصري تفاعلي لتعلم أحكام التجويد بطريقة سهلة وممتعة، مبني بتقنيات الويب الحديثة (Next.js 16 + TypeScript + Tailwind CSS).
+<div dir="rtl" align="center">
 
-## ✨ المميزات
+![Version](https://img.shields.io/badge/version-1.0.0-emerald.svg)
+![Next.js](https://img.shields.io/badge/Next.js-16-black.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)
+![PWA](https://img.shields.io/badge/PWA-ready-purple.svg)
 
-### 🎯 الأقسام التعليمية
-- **مخارج الحروف** - تعلم مخارج الحروف العربية الصحيحة
-- **صفات الحروف** - فهم صفات الحروف وكيفية نطقها
-- **النون الساكنة والتنوين** - الأحكام الأربعة (الإظهار، الإدغام، الإقلاب، الإخفاء)
-- **الميم الساكنة** - الأحكام الثلاثة (الإخفاء، الإدغام، الإظهار)
-- **أحكام المد** - المد الطبيعي والمتصل والمنفصل واللازم والعارض للسكون
-- **أحكام متفرقة** - الوقف، التفخيم والترقيق، الغنة
+**تطبيق عصري تفاعلي لتعلم أحكام التجويد بطريقة سهلة وممتعة**
 
-### 📱 الواجهة والتجربة
-- ✅ تصميم عصري بألوان إسلامية (الأخضر الزمردي والذهبي)
-- ✅ دعم كامل للغة العربية واتجاه RTL
-- ✅ خطوط عربية متعددة (Cairo, Amiri, Reem Kufi)
-- ✅ تصميم متجاوب (Mobile-First) يعمل على جميع الأجهزة
-- ✅ تنقل سلس بين الشاشات مع حركات انتقالية (Framer Motion)
-- ✅ دعم الوضع الليلي (Dark Mode)
+</div>
+
+## ✨ نظرة عامة
+
+تطبيق ويب تقدمي (PWA) متكامل لتعلم علم التجويد، يجمع بين المحتوى العلمي الموثوق والتصميم العصري والتجربة التفاعلية. يعمل التطبيق على جميع الأجهزة (الجوال، اللوحي، الحاسوب) ويمكن تثبيته كتطبيق أصلي على الهواتف.
+
+## 🎯 الأقسام التعليمية
+
+| القسم | المستوى | عدد الدروس | المدة المقدرة |
+|-------|---------|------------|----------------|
+| 📚 مخارج الحروف | مبتدئ | 6 دروس | 25 دقيقة |
+| ✨ صفات الحروف | متوسط | 5 دروس | 30 دقيقة |
+| 📖 النون الساكنة والتنوين | متوسط | 4 دروس | 35 دقيقة |
+| 📚 الميم الساكنة | متوسط | 3 دروس | 20 دقيقة |
+| 🌊 أحكام المد | متقدم | 6 دروس | 40 دقيقة |
+| 📜 أحكام متفرقة | متقدم | 3 دروس | 30 دقيقة |
+
+**المجموع: 27 درساً + 18 سؤال اختباري تفاعلي**
+
+## 🌟 المميزات
+
+### 📚 المحتوى التعليمي
+- ✅ شرح مفصل لكل حكم مع أمثلة من القرآن الكريم
+- ✅ تقسيم منطقي للدروس حسب المستوى (مبتدئ/متوسط/متقدم)
+- ✅ أمثلة صوتية لكل قاعدة (Web Speech API)
+- ✅ محتوى مبني على المراجع المعتمدة (تحفة الأطفال، المقدمة الجزرية، الشاطبية)
 
 ### 🎮 التفاعلية
 - ✅ اختبارات تفاعلية مع تصحيح فوري وتفسيرات
 - ✅ تتبع التقدم مع إحصائيات تفصيلية
-- ✅ نظام العلامات المرجعية للدروس المفضلة
+- ✅ نظام علامات مرجعية للدروس المفضلة
 - ✅ تتبع الأيام المتتالية (Streak) للتشجيع على الاستمرارية
-- ✅ تشغيل صوتي للأمثلة باستخدام Web Speech API
-- ✅ حفظ تلقائي للتقدم في المتصفح (localStorage)
+- ✅ شاشة نتائج احتفالية بعد كل اختبار
 
-### 📲 تثبيت كتطبيق (PWA)
-- ✅ يعمل كتطبيق ويب تقدمي (PWA)
-- ✅ قابل للتثبيت على الهواتف كتطبيق أصلي
-- ✅ يعمل بدون إنترنت بعد التحميل الأول
+### 🎨 التصميم
+- ✅ تصميم عصري بألوان إسلامية (الأخضر الزمردي والذهبي)
+- ✅ دعم كامل للغة العربية واتجاه RTL
+- ✅ خطوط عربية متعددة (Cairo, Amiri, Reem Kufi)
+- ✅ تصميم متجاوب (Mobile-First)
+- ✅ حركات انتقالية سلسة (Framer Motion)
+- ✅ دعم الوضع الليلي (Dark Mode)
+- ✅ أنماط زخرفية إسلامية في الخلفيات
+
+### 📲 التثبيت والاستخدام
+- ✅ يعمل كـ PWA قابل للتثبيت على الهواتف
+- ✅ يعمل بدون إنترنت بعد التحميل الأول (Service Worker)
+- ✅ حفظ تلقائي للتقدم في المتصفح (localStorage)
+- ✅ لا يحتاج تسجيل دخول أو حساب
 
 ## 🛠️ التقنيات المستخدمة
 
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript 5
-- **Styling**: Tailwind CSS 4
-- **UI Components**: shadcn/ui (New York style)
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Fonts**: Google Fonts (Cairo, Amiri, Reem Kufi)
+| التقنية | الإصدار | الاستخدام |
+|---------|---------|-----------|
+| Next.js | 16 | Framework رئيسي (App Router) |
+| TypeScript | 5 | لغة البرمجة |
+| Tailwind CSS | 4 | التنسيق |
+| shadcn/ui | - | مكتبة المكونات |
+| Framer Motion | - | الحركات والانتقالات |
+| Lucide React | - | الأيقونات |
+| Google Fonts | - | الخطوط العربية |
 
 ## 🚀 التشغيل المحلي
 
+### المتطلبات
+- Node.js 18+ أو Bun
+- متصفح حديث
+
+### التثبيت والتشغيل
+
 ```bash
+# استنساخ المستودع
+git clone https://github.com/divid6055-jpg/tajweed-learning-app.git
+cd tajweed-learning-app
+
 # تثبيت الاعتماديات
 bun install
+# أو: npm install
 
 # تشغيل خادم التطوير
 bun run dev
+# أو: npm run dev
 
 # فتح التطبيق في المتصفح
 # http://localhost:3000
 ```
 
+### فحص الكود
+```bash
+# فحص الأخطاء
+bun run lint
+```
+
 ## 📦 بناء APK (Android)
 
-يمكن تحويل هذا التطبيق إلى APK باستخدام أدوات مثل:
+هذا التطبيق مبني كـ PWA ويمكن تحويله إلى APK بعدة طرق:
 
-### الطريقة 1: Capacitor (موصى بها)
+### الطريقة 1: PWABuilder (الأسهل)
+1. ارفع التطبيق على أي استضافة (Vercel, Netlify, GitHub Pages)
+2. اذهب إلى [PWABuilder](https://www.pwabuilder.com/)
+3. أدخل رابط التطبيق
+4. اضغط "Build My PWA" واختر Android
+5. حمّل ملف APK
+
+### الطريقة 2: Capacitor (للمطورين)
 ```bash
 # تثبيت Capacitor
-npm install @capacitor/core @capacitor/cli
-npm install @capacitor/android
+npm install @capacitor/core @capacitor/cli @capacitor/android
 
-# تهيئة Capacitor
+# تهيئة
 npx cap init tajweed-app com.tajweed.app --web-dir=out
 
 # بناء التطبيق
@@ -75,34 +126,80 @@ npx cap add android
 npx cap sync
 npx cap open android
 
-# في Android Studio، اضغط Build > Generate APK
+# في Android Studio: Build > Generate Signed APK
 ```
 
-### الطريقة 2: PWABuilder
-1. ارفع التطبيق على Vercel أو أي استضافة
-2. اذهب إلى [PWABuilder](https://www.pwabuilder.com/)
-3. أدخل رابط التطبيق
-4. حمّل ملف APK
+### الطريقة 3: TWA (Trusted Web Activity)
+يمكن استخدام [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap) لإنشاء TWA:
+```bash
+npm i -g @bubblewrap/cli
+bubblewrap init --manifest=https://your-domain.com/manifest.json
+bubblewrap build
+```
 
-## 📚 المحتوى العلمي
+## 📂 هيكل المشروع
+
+```
+tajweed-learning-app/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # التخطيط الرئيسي (RTL + خطوط)
+│   │   ├── page.tsx            # الصفحة الرئيسية (SPA navigation)
+│   │   ├── globals.css         # الأنماط العامة + الثيم
+│   │   └── icon.svg            # Favicon
+│   ├── components/
+│   │   ├── ui/                 # مكونات shadcn/ui
+│   │   └── tajweed/
+│   │       ├── bottom-nav.tsx          # شريط التنقل السفلي
+│   │       ├── install-prompt.tsx      # موجه تثبيت PWA
+│   │       └── screens/
+│   │           ├── home-screen.tsx     # الصفحة الرئيسية
+│   │           ├── section-screen.tsx  # شاشة القسم
+│   │           ├── lesson-screen.tsx   # شاشة الدرس
+│   │           ├── quiz-screen.tsx     # شاشة الاختبارات
+│   │           └── progress-screen.tsx # شاشة التقدم
+│   └── lib/
+│       └── tajweed/
+│           ├── data.ts         # محتوى التجويد والأسئلة
+│           └── use-progress.ts # Hook لتتبع التقدم
+├── public/
+│   ├── manifest.json           # PWA manifest
+│   ├── sw.js                   # Service Worker
+│   ├── icon-192.svg            # أيقونة 192px
+│   └── icon-512.svg            # أيقونة 512px
+└── package.json
+```
+
+## 📚 المراجع العلمية
 
 المحتوى مبني على المراجع المعتمدة في علم التجويد:
-- تحفة الأطفال للإمام الجمزوري
-- المقدمة الجزرية للإمام ابن الجزري
-- متن الشاطبية للإمام الشاطبي
+- **تحفة الأطفال** للإمام سليمان الجمزوري
+- **المقدمة الجزرية** للإمام ابن الجزري
+- **متن الشاطبية** للإمام القاسم الشاطبي
+- **التمهيد في علم التجويد** للإمام ابن الجزري
 
 ## 🤝 المساهمة
 
-المساهمات مرحب بها! يرجى فتح issue أو إرسال pull request.
+المساهمات مرحب بها! يرجى:
+1. فتح issue لمناقشة التغييرات المقترحة
+2. إنشاء fork للمستودع
+3. إرسال pull request مع وصف واضح للتغييرات
 
 ## 📜 الترخيص
 
-MIT License - حر للاستخدام والتعديل
+MIT License - حر للاستخدام والتعديل والنشر
+
+## 📞 التواصل
+
+- GitHub: [divid6055-jpg](https://github.com/divid6055-jpg)
+- Repository: [tajweed-learning-app](https://github.com/divid6055-jpg/tajweed-learning-app)
 
 ---
 
 <div dir="rtl" align="center">
 
-**وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا** - سورة المزمل
+**وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا** - سورة المزمل، آية 4
+
+صُنع بحب لخدمة كتاب الله 🤲
 
 </div>
