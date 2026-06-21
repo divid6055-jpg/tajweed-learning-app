@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F4C3A"/>
+      <stop offset="100%" stop-color="#1A6B52"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8941F"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Decorative Islamic pattern -->
+  <g transform="translate(256 256)">
+    <path d="M0,-130 L36,-36 L130,0 L36,36 L0,130 L-36,36 L-130,0 L-36,-36 Z" fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.3"/>
+    <path d="M0,-105 L29,-29 L105,0 L29,29 L0,105 L-29,29 L-105,0 L-29,-29 Z" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.5"/>
+    <circle cx="0" cy="0" r="160" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.2"/>
+  </g>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="220" font-weight="bold" fill="url(#gold)">ت</text>
+</svg>

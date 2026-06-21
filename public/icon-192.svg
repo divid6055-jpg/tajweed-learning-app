@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F4C3A"/>
+      <stop offset="100%" stop-color="#1A6B52"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8941F"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <!-- Decorative Islamic pattern - 8-pointed star -->
+  <g transform="translate(96 96)">
+    <path d="M0,-50 L14,-14 L50,0 L14,14 L0,50 L-14,14 L-50,0 L-14,-14 Z" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.3"/>
+    <path d="M0,-40 L11,-11 L40,0 L11,11 L0,40 L-11,11 L-40,0 L-11,-11 Z" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Arabic text "ت" in center -->
+  <text x="96" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="url(#gold)">ت</text>
+</svg>
